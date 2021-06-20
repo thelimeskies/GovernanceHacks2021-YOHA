@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: #111;
+  /* background: #111; */
   background-repeat: no-repeat;
 }
 
@@ -232,6 +232,49 @@ nav ul li a:hover{
 }
 .at{
   font-weight: lighter;
+}
+
+
+/* dashboard */
+.middle_search{
+  position: absolute;
+  top: 17px;
+  left: 350px;
+
+}
+.dash_nav{
+  background-color: white;
+  border-bottom: 1px solid #999;
+}
+.dash_search{
+  background-color: rgb(218, 213, 213);
+  border: none;
+  width:400px;
+  height: 50px;
+}
+.search_btn{
+  border: 1px solid #0ab4b4;
+  padding: 12px 24px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #0ab4b4;
+  border-radius: 0px;
+}
+
+.right_dash{
+  list-style: none;
+  
+  position: absolute;
+  left: 1000px;
+  top: 10px;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  float: right;
+  margin: 0;
+  transition: 0.5s;
 }
 
 
