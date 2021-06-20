@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Daily UI 001 Sign Up Form</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="signupSection">
+  <div class="info">
+    <h2>YOHA</h2>
+    <i class="icon ion-ios-ionic-outline" aria-hidden="true"></i>
+    <p>Lorem ipsum dolor sit amet consectetur</p>
+  </div>
+  <form action="#" method="POST" class="loginForm signupForm" name="signupform">
+    <h2>Login To Your Account</h2>
+    <ul class="noBullet">
+ 
+      <li>
+        <label for="password"></label>
+        <input type="password" class="inputFields" id="password" name="password" placeholder="Password" value="" oninput="return passwordValidation(this.value)" required/>
+      </li>
+      <li>
+        <label for="email"></label>
+        <input type="email" class="inputFields" id="email" name="email" placeholder="Email" value="" required/>
+      </li>
+      <li id="center-btn">
+        <input type="submit" id="join-btn" name="join" alt="Join" value="SUBMIT">
+      </li>
+    </ul>
+    <p class="ls">Dont Have An Account ? <a class="secondary" href="signup.html">Sign Up</a></p>
+  </form>
+</div>
+  
+    <script src="js/index.js"></script>
+    <script>
+      console.log("thanks for taking a peak :)")
+  
+  
+      AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: false
+      })
+    </script>
+
+</body>
+</html>
