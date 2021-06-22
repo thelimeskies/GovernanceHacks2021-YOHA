@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
+        <link
+          rel="apple-touch-icon"
+          sizes="76x76"
+          href="./assets/img/apple-icon.png"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="./css/style.css"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>User Dashboard</title>
+    
+
+      </head>
+<body>
+    <header>
+        <nav class="dash_nav">
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x" id="menuBtn" onclick="menuBtn()"></i>
+                <i class="fa fa-times fa-2x" id="cancelBtn" onclick="cancelBtn()"></i>
+            </div>
+            <div class="logo">
+                <a href="index.html">YOHA</a>
+            </div>
+            <div class="menu">
+                <div class="middle_search relative flex w-full sm:w-7/12 md:w-5/12 px-4 flex-wrap items-stretch lg:ml-auto">
+                    
+                    <input type="text" class="dash_search" placeholder="Search Job Titles, Companies Or Keyword" />
+                    <div class="flex">
+                        
+                          <!-- <i class="fas fa-search"></i> -->
+                        <button class="search_btn">Search</button>
+                      </div>
+                  </div>
+                <ul class="right_dash">
+                    <li><a href="index.html">Notifications</a></li>
+                    <li><i class="fa fa-user"></i><a href="about.html" type="button">Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+</body>
+</html>
