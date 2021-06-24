@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
+        <link
+          rel="apple-touch-icon"
+          sizes="76x76"
+          href="./assets/img/apple-icon.png"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="./css/style.css"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>User Dashboard</title>
+    
+
+      </head>
+<body>
+    <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x" id="menuBtn" onclick="menuBtn()"></i>
+            <i class="fa fa-times fa-2x" id="cancelBtn" onclick="cancelBtn()"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html">YOHA <span style="color: #444;">| For Employers</span></a>
+          </div>
+          <div class="menu">
+            <ul class="middle_nav">
+              <li><a href="index.html">Post A Jobs</a></li>
+              <li><a href="about.html">Features And Pricing</a></li>
+              <li><a href="service.html">Sales</a></li>
+              <li><a href="project.html">Employer Blog</a></li>
+    
+            </ul>
+            <ul class="right_nav">
+              <li><a href="index.html">For Employees</a></li>
+              <li><a href="signup.html" class="button-sm" type="button">Profile</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- hero -->
+      <main>
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 100vh;">
+          <div class="absolute top-0 w-full h-full bg-center bg-cover"
+            style='background-image: url(./media/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg);'>
+            <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+          </div>
+          <div class="container con relative mx-auto" style="text-align: center;">
+            <div class="items-center flex flex-wrap">
+              <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div class="pr-12">
+                  <div class="some_content">
+                    <h1 class="text-white font-semibold text-6xl head">
+                      YOHA
+                    </h1>
+                    <p class="mt-4 text-4xl text-white">
+                      Take A First Step In Creating Your Story
+                    </p>
+    
+                    <a href="#form" class="action_btn" type="button">START HIRING</a>
+    
+                  </div>
+    
+    
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+
+    <main class="resume-section" id="form" style="margin-top: 20px;">
+        
+        
+<div class="wrapper animated bounceInLeft">
+  <div class="company-info">
+    <h3 class="head-contact-info">Lorem, ipsum dolor.</h3>
+    <ul>
+      <li><i class="secondary"></i> Your next hire is researching your company on YOHA. Take control of the conversation and show ideal cnadidates why they want to work with you</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel assumenda obcaecati consequatur est consectetur sit quis modi hic repudiandae.</li>
+      
+      
+
+      <a href="mailto:bolu4good@gmail.com" class="btn p-btn">Contact Me Now</a>
+
+    </ul>
+  </div>
+  <hr class="aline"/>
+  <div class="contact">
+    <h3 class="head-contact">Create A Title</h3>
+    <form name="contact" action="POST" data-netlify="true">
+      <p>
+        <label>First Name *</label>
+        <input type="text" name="name" required/>
+      </p>
+      <p>
+        <label>Last Name *</label>
+        <input type="text" name="company" />
+      </p> 
+      <p class="full">
+        <label>Work Email Address *</label>
+        <input type="text" name="company" />
+      </p>
+      <p class="full">
+        <label>Official Company Name *</label>
+        <input type="text" name="company" />
+      </p>
+      <p>
+        <label>Job Title *</label>
+        <input type="email" name="email" required/>
+      </p>
+      <p>
+        <label># Available Open Positions *</label>
+        <input type="number" name="phone" />
+      </p> 
+      <p class="full">
+        <label>Job Description *</label>
+        <textarea name="message" rows="5" required></textarea>
+      </p>
+      <p class="full">
+        <button onClick={submit}>SUBMIT<i class="fa fa-paper-plane"></i></button>
+      </p>
+    </form>
+  </div>
+</div>
+    </main>
+
+    <section class="relative py-20 bg-black text-white" style='background-image: url(./media/overlay.jpg);'>
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20">
+  
+        </div>
+        <div class="container mx-auto px-4">
+          <p style="font-size: 50px; text-align: center;">EXPLORE YOHA</p>
+          <p class="at" style="font-size: 25px; font-weight: lighter; text-align: center; color: ghostwhite;"
+            >Millions of people are searching for jobs, salary information, company reviews, and
+            interview questions. See what others are looking for on YOHA today.</p>
+  
+          <div class="container mx-auto px-4 content-center items-center justify-center" style="margin-left: 520px;">
+            <a href="services.html" class="action_btn outline" type="button">VIEW PlANS AND PRCING</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="relative bg-gray-900 pt-8 pb-6" style="color: white;">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;">
+    
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4">
+              <h1 style="font-size: 50px;">LOGO</h1>
+              <h4 class="text-2xl">YOHA</h4>
+              <h5 class="text-lg mt-2 mb-2 text-gray-300">
+                Keep In Touch With Us
+              </h5>
+    
+              <div class="mt-6">
+                <button
+                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <a href="https://twitter.com"><i class="flex fab fa-twitter" target="_blank"
+                      rel="noopener noreferrer"></i></a></button><button
+                  class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <a href="https://web.facebook.com/amazinggodbroadcast/?_rdc=1&_rdr" target="_blank"
+                    rel="noopener noreferrer"><i class="flex fab fa-facebook-square"></i></button< /a>
+    
+    
+    
+                    <button
+                      class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                      type="button">
+                      <a href="https://www.youtube.com/channel/UCNeuc6C5PbtrxpGlM0e74LQ"><i class="flex fab fa-youtube"></i>
+                        </button></a>
+    
+    
+    
+    
+              </div>
+              <div class="container mx-auto content-center items-center justify-center">
+                <a  href="services.html" class="action_btn outline" type="button">CONTACT US</a>
+              </div>
+            </div>
+            <div class="w-full lg:w-6/12 px-4">
+              <div class="flex flex-wrap items-top mb-6">
+                <div class="w-full lg:w-4/12 px-4 ml-auto">
+                  <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">YOHA</span>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="https://loveaflameworld.org/"
+                        target="_blank" rel="noopener noreferrer">Head Quarter</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-full lg:w-4/12 px-4">
+                  <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">COMMUNITY</span>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm"
+                        href="https://mixlr.com/love-aflame-ministries-amuwo" target="_blank"
+                        rel="noopener noreferrer">Mixlr</a>
+                    </li>
+    
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="give.html">Give</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a class="text-gray-500  font-semibold block pb-2 text-sm" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-6 border-gray-400" />
+          <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+              <div class="text-sm text-gray-600 font-semibold py-1">
+                Copyright © 2021, YOHA, Inc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
