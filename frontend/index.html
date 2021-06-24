@@ -1,381 +1,294 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/img/apple-icon.png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/style.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css" integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>YOHA | Find A Job That Fits Your Life</title>
 
-    
-  </head>
-  <body class="text-gray-800 antialiased">
-      <!-- navbar -->
-   
-    <header>
-        <nav>
-            <div class="menu-icon">
-                <i class="fa fa-bars fa-2x" id="menuBtn" onclick="menuBtn()"></i>
-                <i class="fa fa-times fa-2x" id="cancelBtn" onclick="cancelBtn()"></i>
-            </div>
-            <div class="logo">
-                <a href="index.html">YOHA</a>
-            </div>
-            <div class="menu">
-                <ul class="middle_nav">
-                    <li><a href="index.html">Jobs</a></li>
-                    <li><a href="about.html">Interviews</a></li>
-                    <li><a href="service.html">Companies</a></li>
-                    <li><a href="project.html">Salaries</a></li>
-                    
-                </ul>
-                <ul class="right_nav">
-                    <li><a href="index.html">For Employers</a></li>
-                    <li><a href="about.html" class="button-sm" type="button">Sign Up</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!-- hero -->
-    <main>
-      <div
-        class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 100vh;"
-      >
-        <div
-          class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url(./media/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg);'
-        >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
-          ></span>
-        </div>
-        <div class="container con relative mx-auto" data-aos="fade-in" style="text-align: center;">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
-                <div class="some_content">
-                    <h1 class="text-white font-semibold text-6xl head">
-                        LOGO
-                      </h1>
-                      <p class="mt-4 text-4xl text-white">
-                        Find A Job That Fits Your Life... 
-                      </p>
-                      
-                      <a href="signup.html" class="action_btn" type="button">GET STARTED</a>
-      
-                </div>
-                
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css"
+    integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>YOHA | Find A Job That Fits Your Life</title>
+
+
+</head>
+
+<body class="text-gray-800 antialiased">
+  <!-- navbar -->
+
+  <header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x" id="menuBtn" onclick="menuBtn()"></i>
+        <i class="fa fa-times fa-2x" id="cancelBtn" onclick="cancelBtn()"></i>
+      </div>
+      <div class="logo">
+        <a href="index.html">YOHA</a>
+      </div>
+      <div class="menu">
+        <ul class="middle_nav">
+          <li><a href="index.html">Jobs</a></li>
+          <li><a href="about.html">Interviews</a></li>
+          <li><a href="service.html">Companies</a></li>
+          <li><a href="project.html">Salaries</a></li>
+
+        </ul>
+        <ul class="right_nav">
+          <li><a href="index.html">For Employers</a></li>
+          <li><a href="signup.html" class="button-sm" type="button">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- hero -->
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 100vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style='background-image: url(./media/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg);'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container con relative mx-auto" data-aos="fade-in" style="text-align: center;">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <div class="some_content">
+                <h1 class="text-white font-semibold text-6xl head">
+                  YOHA
+                </h1>
+                <p class="mt-4 text-4xl text-white">
+                  Find A Job That Fits Your Life...
+                </p>
+
+                <a href="signup.html" class="action_btn" type="button">GET STARTED</a>
 
               </div>
+
+
             </div>
           </div>
         </div>
-        
       </div>
-      <section id="services" class="pb-20 bg-white -mt-60">
-        <h2 class="text-3xl font-normal leading-normal mt-0 px-6 mb-4 text-gray-600" style="text-align: center; padding-top: 30px;">
-           WHY YOHA ?
-        </h2>
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap">
-            <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" data-aos="fade-right"
-              >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
-                  >
-                    <i class="fas fa-money"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">Compare Salaries</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab recusandae rem, consequatur aliquid illo eligendi alias laudantium ipsa! Quidem, nesciunt!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg" data-aos="fade-in"
-              >
-                <div class="px-4 py-5 flex-auto" >
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
-                  >
-                    <i class="fas fa-tasks"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">Find The Right Job</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis aliquam consequatur perspiciatis, a dolorum molestias at corrupti neque maxime consectetur! 
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
-              <div
-                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"  data-aos="fade-left"
-              >
-                <div class="px-4 py-5 flex-auto">
-                  <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
-                  >
-                    <i class="fas fa-building"></i>
-                  </div>
-                  <h6 class="text-xl font-semibold">Research Companies</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A nobis possimus cumque corrupti fugit temporibus amet obcaecati omnis, nulla iure!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="content-center items-center justify-center" style="margin: auto;">
-                <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">CREATE AN ACCOUNT</a>
-            </div>
-            
 
-
-          </div>
-          
-      </section>
-
-      <!-- semi about -->
-      
-      <section class="relative py-20 bg-black text-white" style='background-image: url(./media/overlay.jpg);'>
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          
-          
-        >
-         
-        </div>
-        <div class="container mx-auto px-4" >
-          <p style="font-size: 50px; text-align: center;" data-aos="fade-in">EXPLORE YOHA</p>
-          <p class="at" style="font-size: 25px; font-weight: lighter; text-align: center; color: ghostwhite;" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam nobis unde doloremque amet molestiae fuga minima nulla dolore. Iure consequuntur deserunt perspiciatis culpa officiis. Dolores doloribus eos et. Sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est modi numquam dolorem. Error maxime vero consequatur esse ullam aspernatur!</p>
-
-          <div class="container mx-auto px-4 content-center items-center justify-center" style="margin-left: 520px;">
-            <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">VIEW JOBS</a>
-        </div>
-        </div>
-      </section>
-      </main>
-    <footer class="relative bg-gray-900 pt-8 pb-6" style="color: white;" data-aos="fade-up">
-      <div
-        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px;"
-      >
-        
-      </div>
+    </div>
+    <section id="services" class="pb-20 bg-white -mt-60">
+      <h2 class="text-3xl font-normal leading-normal mt-0 px-6 mb-4 text-gray-600"
+        style="text-align: center; padding-top: 30px;">
+        WHY YOHA ?
+      </h2>
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4">
-            <h1 style="font-size: 50px;">LOGO</h1>
-            <h4 class="text-2xl">YOHA</h4>
-            <h5 class="text-lg mt-2 mb-2 text-gray-300">
-              Keep In Touch With Us
-            </h5>
-            
-            <div class="mt-6">
-              <button
-                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <a href="https://twitter.com"><i class="flex fab fa-twitter" target="_blank" rel="noopener noreferrer"></i></a></button
-              ><button
-                class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <a href="https://web.facebook.com/amazinggodbroadcast/?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer"><i class="flex fab fa-facebook-square"></i></button</a>
-              
-              
-              
-              <button
-                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-              <a href="https://www.youtube.com/channel/UCNeuc6C5PbtrxpGlM0e74LQ"><i class="flex fab fa-youtube"></i></button</a>
-
-             
-
-
-            </div>
-            <div class="container mx-auto content-center items-center justify-center">
-                <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">CONTACT US</a>
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-right">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-money"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Compare Salaries</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Compare the pay rate of your desired Workplace With other potential employee
+                </p>
+              </div>
             </div>
           </div>
-          <div class="w-full lg:w-6/12 px-4">
-            <div class="flex flex-wrap items-top mb-6">
-              <div class="w-full lg:w-4/12 px-4 ml-auto">
-                <span
-                  class="block uppercase text-gray-400 text-sm font-semibold mb-2"
-                  >YOHA</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="index.html"
-                      > Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="about.html"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="services.html"
-                      >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="index.html"
-                      > Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="about.html"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="services.html"
-                      >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="https://loveaflameworld.org/"
-                      target="_blank" rel="noopener noreferrer"
-                      >Head Quarter</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <span
-                  class="block uppercase text-gray-400 text-sm font-semibold mb-2"
-                  >COMMUNITY</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="https://mixlr.com/love-aflame-ministries-amuwo"
-                      target="_blank" rel="noopener noreferrer"
-                      >Mixlr</a
-                    >
-                  </li>
-                  
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="give.html"
-                      >Give</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="index.html"
-                      > Home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="about.html"
-                      >About</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="services.html"
-                      >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="#"
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-500  font-semibold block pb-2 text-sm"
-                      href="contact.html"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
+          <div class="w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-in">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                  <i class="fas fa-tasks"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Find The Right Job</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Find the right job that suits your current situation
+                </p>
               </div>
             </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos="fade-left">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-building"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Research Companies</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Learn More About Other Companies, Working Conditions, Current Job opening
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-center items-center justify-center" style="margin: auto;">
+            <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">CREATE AN ACCOUNT</a>
+          </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- semi about -->
+
+    <section class="relative py-20 bg-black text-white" style='background-image: url(./media/overlay.jpg);'>
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20">
+
+      </div>
+      <div class="container mx-auto px-4">
+        <p style="font-size: 50px; text-align: center;" data-aos="fade-in">EXPLORE YOHA</p>
+        <p class="at" style="font-size: 25px; font-weight: lighter; text-align: center; color: ghostwhite;"
+          data-aos="fade-up">Millions of people are searching for jobs, salary information, company reviews, and
+          interview questions. See what others are looking for on YOHA today.</p>
+
+        <div class="container mx-auto px-4 content-center items-center justify-center" style="margin-left: 520px;">
+          <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">VIEW JOBS</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="relative bg-gray-900 pt-8 pb-6" style="color: white;" data-aos="fade-up">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;">
+
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h1 style="font-size: 50px;">LOGO</h1>
+          <h4 class="text-2xl">YOHA</h4>
+          <h5 class="text-lg mt-2 mb-2 text-gray-300">
+            Keep In Touch With Us
+          </h5>
+
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <a href="https://twitter.com"><i class="flex fab fa-twitter" target="_blank"
+                  rel="noopener noreferrer"></i></a></button><button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <a href="https://web.facebook.com/amazinggodbroadcast/?_rdc=1&_rdr" target="_blank"
+                rel="noopener noreferrer"><i class="flex fab fa-facebook-square"></i></button< /a>
+
+
+
+                <button
+                  class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button">
+                  <a href="https://www.youtube.com/channel/UCNeuc6C5PbtrxpGlM0e74LQ"><i class="flex fab fa-youtube"></i>
+                    </button< /a>
+
+
+
+
+          </div>
+          <div class="container mx-auto content-center items-center justify-center">
+            <a data-aos="fade-in" href="services.html" class="action_btn outline" type="button">CONTACT US</a>
           </div>
         </div>
-        <hr class="my-6 border-gray-400" />
-        <div
-          class="flex flex-wrap items-center md:justify-between justify-center"
-        >
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div class="text-sm text-gray-600 font-semibold py-1">
-                Copyright © 2021, YOHA, Inc. 
-              
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">YOHA</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="https://loveaflameworld.org/"
+                    target="_blank" rel="noopener noreferrer">Head Quarter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-400 text-sm font-semibold mb-2">COMMUNITY</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm"
+                    href="https://mixlr.com/love-aflame-ministries-amuwo" target="_blank"
+                    rel="noopener noreferrer">Mixlr</a>
+                </li>
+
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="give.html">Give</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="index.html"> Home</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="about.html">About</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="services.html">Services</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="text-gray-500  font-semibold block pb-2 text-sm" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
-  <script>
-    function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js" integrity="sha512-678bHRnILWQudsPcjDbSoYtwimEk8yPq7BBWeJaFoSHPf7Ob7N7au8M49yY9Wbpmmi0PvDzf3Rca1mbmYQLAxQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
-    console.log("thanks for taking a peak :)")
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2021, YOHA, Inc.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"
+  integrity="sha512-678bHRnILWQudsPcjDbSoYtwimEk8yPq7BBWeJaFoSHPf7Ob7N7au8M49yY9Wbpmmi0PvDzf3Rca1mbmYQLAxQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  console.log("thanks for taking a peak :)")
 
 
-    AOS.init({
-      delay: 200,
-      duration: 1500,
-      once: false
-    })
-  </script>
-  
-  
+  AOS.init({
+    delay: 200,
+    duration: 1500,
+    once: false
+  })
+</script>
+
+
 </html>
