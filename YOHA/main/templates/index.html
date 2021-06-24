@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 
@@ -6,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href='{% static "assets/img/apple-icon.png" %}' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css"
     integrity="sha512-ksbpl5EUb4HLEKUNItsPMT/Ih6KcISE53GbYOu3xFUVYvTSSX5AJxTI2aigdQm9uNSkSsRMHsSGNKppkt691lw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,7 +42,7 @@
         </ul>
         <ul class="right_nav">
           <li><a href="index.html">For Employers</a></li>
-          <li><a href="signup.html" class="button-sm" type="button">Sign Up</a></li>
+          <li><a href="about.html" class="button-sm" type="button">Sign Up</a></li>
         </ul>
       </div>
     </nav>
