@@ -239,7 +239,7 @@ nav ul li a:hover{
 .middle_search{
   position: absolute;
   top: 17px;
-  left: 350px;
+  left: 250px;
 
 }
 .dash_nav{
@@ -266,7 +266,7 @@ nav ul li a:hover{
   list-style: none;
   
   position: absolute;
-  left: 1000px;
+  left: 800px;
   top: 10px;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -275,6 +275,46 @@ nav ul li a:hover{
   float: right;
   margin: 0;
   transition: 0.5s;
+}
+
+.profile{
+  /* border: 1px solid #999; */
+  height: 400px;
+  
+  
+}
+
+.border-profile{
+  border: 1px solid #999;
+}
+
+.user-profile{
+  /* border: .5px solid #999; */
+  background-color: white;
+}
+
+.update_profile{
+  border: 1px solid #0ab4b4;
+  padding: 12px 24px;
+  color: #0ab4b4;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.update_create{
+  border: 1px solid #0ab4b4;
+  background-color: #0ab4b4;
+  padding: 11px 21px;
+  color: white;
+  font-size: 12px;
+  
+  margin-bottom: 20px;
+}
+
+.dash_right{
+  margin-left: 15px;
 }
 
 
