@@ -102,7 +102,7 @@ nav .right_nav {
   list-style: none;
   
   position: absolute;
-  left: 900px;
+  left: 1100px;
   top: -2px;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -277,11 +277,8 @@ nav ul li a:hover{
   transition: 0.5s;
 }
 
-.profile{
-  /* border: 1px solid #999; */
-  height: 400px;
-  
-  
+.dash_rightt{
+  margin-left: 320px;
 }
 
 .border-profile{
